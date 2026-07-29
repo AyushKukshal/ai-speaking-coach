@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Speaking Coach
 
-## Getting Started
+An AI-powered web application that helps users improve their public speaking, communication, and critical thinking through structured speaking practice and AI-driven feedback.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+AI Speaking Coach provides a platform for practicing impromptu speaking. Users receive a topic, record their speech, and receive an AI-generated transcript and personalized feedback to improve fluency, confidence, and communication skills.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- AI-powered speech transcription
+- Timed speaking practice (30s, 1m, 2m)
+- Audio recording directly in the browser
+- Speech transcript generation
+- Modern responsive interface
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Planned Features
 
-## Learn More
+- AI speaking evaluation
+- Random topic generation
+- Interview practice mode
+- Research panel for unfamiliar topics
+- Speaking history
+- Progress tracking
+- Daily streaks
+- Personalized improvement suggestions
+- Authentication
+- Dashboard and analytics
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Groq Whisper API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Status
 
-## Deploy on Vercel
+Currently under active development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Roadmap
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [x] Audio recording
+- [x] Speech transcription
+- [ ] AI feedback
+- [ ] Topic generation
+- [ ] Research assistant
+- [ ] User authentication
+- [ ] Dashboard
+- [ ] Progress analytics
